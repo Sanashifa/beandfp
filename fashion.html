@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <title>Best Product</title>
+      <link rel="stylesheet" href="style1.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" >
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+        
+ </head>
+ <body>
+     <div class="top-nav-bar">
+      <div class="search-box"> 
+          <i class="fa fa-bars" id="menu-btn" onclick="openmenu()"></i>
+          <i class="fa fa-times" id="close-btn" onclick="closemenu()"></i>
+          <img src="F:/proj/logo/logo.jpg"alt="logo" class="logo-img">
+          <input type="text" class="form-control">
+          <span class="input-group-text">
+            <i class="fa fa-search"></i>    
+          </span>
+      </div>
+     </div>
+     <section class="header">
+         <div class="side-menu" id="side-menu">
+             <ul>
+                 <li>Men fashions<i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                 <li>Women fashions<i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                 
+             </ul>
+         </div>
+     </section>
+     <script>
+         function openmenu()
+         {
+             document.getElementById("side-menu").style.display="block";
+             document.getElementById("menubtn").style.display="none";
+             document.getElementById("closebtn").style.display="block";
+         }
+         function closemenu()
+         {
+             document.getElementById("side-menu").style.display="none";
+             document.getElementById("menubtn").style.display="block";
+             document.getElementById("closebtn").style.display="none";
+         }
+     </script>
+     
+     
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
